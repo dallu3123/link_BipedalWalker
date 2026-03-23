@@ -2,13 +2,21 @@
 
 BipedalWalker-v3 Hardcore 환경을 이용한 강화학습 텀프로젝트입니다.
 
+```bash
+git clone https://github.com/dallu3123/link_BipedalWalker.git
+cd link_BipedalWalker
+```
+
 ## 환경 설치 (Mac)
 
 ### 1. Conda 환경 생성
 
 ```bash
-conda create -n walker python=3.10 -y
+conda create -n walker python=3.13 -y
 conda activate walker
+# 참고로 수업시간에서 생성한 환경에 그대로 이용해도 됩니다.
+# conda activate link_rl
+
 ```
 
 ### 2. Swig 설치
@@ -47,8 +55,10 @@ BipedalWalker 창이 뜨고 랜덤하게 움직이면 설치 완료입니다.
 ### 1. Conda 환경 생성
 
 ```bash
-conda create -n walker python=3.10 -y
+conda create -n walker python=3.13 -y
 conda activate walker
+# 참고로 수업시간에서 생성한 환경에 그대로 이용해도 됩니다.
+# conda activate link_rl
 ```
 
 ### 2. Swig 설치
@@ -91,8 +101,10 @@ BipedalWalker 창이 뜨고 랜덤하게 움직이면 설치 완료입니다.
 ### 1. Conda 환경 생성
 
 ```bash
-conda create -n walker python=3.10 -y
+conda create -n walker python=3.13 -y
 conda activate walker
+# 참고로 수업시간에서 생성한 환경에 그대로 이용해도 됩니다.
+# conda activate link_rl
 ```
 
 ### 2. 시스템 패키지 설치
